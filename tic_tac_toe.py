@@ -163,7 +163,7 @@ def learn_from_random_agent():
                 
                 a =empty_spaces[random.choice(list(enumerate(values_of_empty_spaces)))[0]]
             else:
-                # select the action with largest q value in state s
+                # select the state ---> max value function
                 a = empty_spaces[np.argmax(values_of_empty_spaces)]
            
            
