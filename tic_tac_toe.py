@@ -175,6 +175,7 @@ def learn_from_random_agent():
             else:
                 value_table[a[0]*3+a[1]] =alfa*reward
             old_a=a
+            state=new_s
             
             if(done==1):
                 print("Winner is  :"+ str(winner))
