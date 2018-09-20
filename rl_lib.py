@@ -96,3 +96,6 @@ class Double_Q_Learning_Agent():
 
     def return_Q_tables(self):
         return [self.Q_table_1, self.Q_table_2]
+
+
+
